@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey</title>
+        <link rel="stylesheet" href="lab1.css">
+        <script scr="lab1.js"></script>
+    </head>
+    <body>
+        <div class="div1">
+            <h1> Store survey</h1>
+            <p1>Feel free to write some reviews about the <a href="https://www.nike.com/ca" target="_blank">Nike's </a> website </p1><br><br>
+            <a href="https://www.nike.com/ca" target="_blank">
+                <img height="400px"  width="600px" src="nike.png" alt="no image">
+            </a>
+        </div>
+
+        <div class="div2">
+            <h2>Share your thoughts</h2>
+            <form>
+                <label> First name</label>
+                <input type="text" name="firstName" value="" placeholder="First name"><br>
+                <label> Last name</label>
+                <input type="text" name="lastName" value="" placeholder="Last name">
+                <br><br><br>
+
+                <label>How easy is to navigate through the website?</label><br>
+                <input type="radio" name="satisfaction1" value="easy">Easy<br>
+                <input type="radio" name="satisfaction2" value="neutral ">Neutral<br>
+                <input type="radio" name="satisfaction3" value="diificult">Difficult<br><br><br>
+
+                <label>Search and filtering option?</label><br>
+                <select>
+                    <option value="effective">Effective</option>
+                    <option value="neutral" selected>Neutral</option>
+                    <option value="ineffective">Ineffective</option>
+                </select>
+                <br><br><br>
+
+                <label>What should we improved on the website?</label><br>
+                <input type="checkbox" name="preference1" value="fruits">Better search functionality<br>
+                <input type="checkbox" name="preference2" value="veggies">User interface improvement<br>
+                <input type="checkbox" name="preference3" value="meats">More customization options<br>
+                <input type="checkbox" name="preference3" value="meats">Enhance compatibility in all devices<br><br><br>
+
+                <label>Comments and suggestion</label><br>
+                <textarea cols="45" rows="6"></textarea>
+                <br><br>
+
+                <input class="submitBtn" type="button" name="submit" value="Submit the survey">
+            </form>
+
+            <p> Designed by Tony and Co</p>
+        </div>
+
+    </body>
+</html>
